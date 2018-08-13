@@ -1,8 +1,7 @@
----
-layout: single
-comments: false
-title: React Native at Airbnb: The Technology
----
+* 原文地址：https://medium.com/airbnb-engineering/react-native-at-airbnb-the-technology-dafd0b43838
+* 译文出自：TWNTF
+* 译者：Yingjian Li
+
 
 # React Native 在 Airbnb 中的实践: 技术细节
 

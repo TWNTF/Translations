@@ -1,8 +1,6 @@
----
-layout: single
-comments: false
-title: React Native at Airbnb: Sunsetting React Native
----
+* 原文地址：https://medium.com/airbnb-engineering/sunsetting-react-native-1868ba28e30a
+* 译文出自：TWNTF
+* 译者：Yingjian Li
 
 # 弃用 React Native
 

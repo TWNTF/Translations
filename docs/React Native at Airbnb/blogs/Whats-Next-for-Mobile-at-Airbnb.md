@@ -1,8 +1,7 @@
----
-layout: single
-comments: false
-title: What’s Next for Mobile at Airbnb
----
+* 原文地址：https://medium.com/airbnb-engineering/whats-next-for-mobile-at-airbnb-5e71618576ab
+* 译文出自：TWNTF
+* 译者：Yingjian Li
+
 
 # Airbnb 移动端发展计划
 

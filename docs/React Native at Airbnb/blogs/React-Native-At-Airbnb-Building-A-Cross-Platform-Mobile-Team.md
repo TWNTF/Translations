@@ -1,8 +1,7 @@
----
-layout: single
-comments: false
-title: React Native at Airbnb: Building a Cross-Platform Mobile Team
----
+* 原文地址：https://medium.com/airbnb-engineering/building-a-cross-platform-mobile-team-3e1837b40a88
+* 译文出自：TWNTF
+* 译者：Yingjian Li
+
 
 # 构建一个跨平台的移动端团队
 

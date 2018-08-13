@@ -1,8 +1,8 @@
----
-layout: single
-comments: false
-title: React Native at Airbnb
----
+
+* 原文地址：https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c
+* 译文出自：TWNTF
+* 译者：Yingjian Li
+
 
 # React Native 在 Airbnb 中的实践
 
