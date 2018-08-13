@@ -84,13 +84,13 @@ React Native 通过[Yoga](https://github.com/facebook/yoga)处理布局.Yoga 是
 
 ### 与 web 端合作
 
-在后面使用 React Native 时,我们开始一次性构建 web,iOS 和 android,因为 web 短也同样使用`Redux`, 我们发现许多代码不需要更改就可以在 web 和原生平台间跨平台分享.
+在后面使用 React Native 时,我们开始一次性构建 web,iOS 和 android,因为 web 端也同样使用`Redux`, 我们发现许多代码不需要更改就可以在 web 和原生平台间跨平台分享.
 
 ## 不足
 
 ### React Native 还不够成熟
 
-React Native 远不如 Android 和 iOS 成熟.它是一门新技术,但野心勃勃,发展及其迅速.尽管 React Native 在大多数场合下都表现得十分出色,但也在某些地方表现的并不成熟,而且使得一些原生中的小功能变得十分复杂.不幸的是,很难预测什么时候会遇到这种问题,而且需要多长时间来解决这些问题(也许几个小时,也许几天).
+React Native 远不如 Android 和 iOS 成熟.它是一门新技术,但野心勃勃,发展极其迅速.尽管 React Native 在大多数场合下都表现得十分出色,但也在某些地方表现的并不成熟,而且使得一些原生中的小功能变得十分复杂.不幸的是,很难预测什么时候会遇到这种问题,而且需要多长时间来解决这些问题(也许几个小时,也许几天).
 
 ### 维护 React Native 的 fork
 
@@ -132,7 +132,7 @@ React Native 一个微妙而棘手的问题是由[JavaScript 核心环境](https
 
 ### 原生桥接
 
-React Native 有一个[`桥接 API`](https://facebook.github.io/react-native/docs/communication-ios.html)可以在 React Native 和 native 间通信. 你需要写大量繁琐的代码来使它正常工作.首先它需要正确的设置所有的三种开发环境.我们还遇到过许多类型问题,例如整数类型通常会被封装成字符串,直到它通过桥接器时,我们都没有注意到这个问题.更严重的情况下, iOS 会默默失败而 Android 会崩溃.从 2017 年年底开始,我们开始研究自动生成 TypeScript 定义的桥接代码,但为时已晚.
+React Native 有一个[`桥接 API`](https://facebook.github.io/react-native/docs/communication-ios.html)可以在 React Native 和 native 间通信. 你需要写大量繁琐的代码来使它正常工作.首先它需要正确的设置所有的三种开发环境.我们还遇到过许多类型问题,例如整数类型通常会被封装成字符串,直到它通过桥接器时,我们才注意到这个问题.更严重的情况下, iOS 会默默失败而 Android 会崩溃.从 2017 年年底开始,我们开始研究自动生成 TypeScript 定义的桥接代码,但为时已晚.
 
 ### 初始化时间
 
@@ -160,7 +160,7 @@ React Native 已经在这方面取得了一定的进展([`FlatList`](https://fac
 
 ### 升级 React Native
 
-尽管大多数情况下,升级 React Native 版本都是微不足道的,但有时却是十分痛苦的.特别是因为使用了 React 16 的 alpha 和 beta 版本,React Native 0.43(2017.4)到 React Native 0.49(2017.10)几乎是不可用的.这是一个很大的问题,因为大多数 web 端的 React 库都不支持预发布的 React 版本.在 2017 年年中,关于这次升级依赖关系的争吵对 React Native 的基础设施造成了巨大的伤害.
+尽管大多数情况下,升级 React Native 版本都是微不足道的,但有时却是十分痛苦的.特别是因为使用了 React 16 的 alpha 和 beta 版本,React Native 0.43(2017.4)到 React Native 0.49(2017.10)间的版本几乎都是不可用的.这是一个很大的问题,因为大多数 web 端的 React 库都不支持预发布的 React 版本.在 2017 年年中,关于这次升级依赖关系的争吵对 React Native 的基础设施造成了巨大的伤害.
 
 ### Accessibility
 
