@@ -16,7 +16,7 @@ _这是我们介绍 React Native 经验和 Airbnb mobile 未来计划[系列博�
 
 ### 开发速度
 
-如果 React Native 如预期一样工作, 开发将会十分迅速. 但是大量的[技术](https://medium.com/airbnb-engineering/react-native-at-airbnb-the-technology-dafd0b43838)和[组织](https://medium.com/airbnb-engineering/building-a-cross-platform-mobile-team-3e1837b40a88)方面的问题,是许多项目产生了非预期的推迟.
+如果 React Native 如预期一样工作, 开发将会十分迅速. 但是大量的[技术](https://medium.com/airbnb-engineering/react-native-at-airbnb-the-technology-dafd0b43838)和[组织](https://medium.com/airbnb-engineering/building-a-cross-platform-mobile-team-3e1837b40a88)方面的问题,使许多项目产生了非预期的推迟.
 
 ### 代码质量
 
@@ -58,7 +58,7 @@ React Native 的开发体验参差不齐.在某些方面(如构建时间)表现�
 我们把 React Native 集成到了快速大型 App 中,并且持续快速的开发.我们遇到的许多问题是由我们采用的混合方案引起的.我们的规模允许我们承担并且解决这些问题,但小公司可能没有时间来解决这些问题.使 React Native 与 native 无缝连接是有可能的但是十分具有挑战性.每一个使用 React Native 的公司都会有自己独特的经历(团队构成,App,产品需求和 React Native 成熟度等).
 当把迭代速度,质量,开发体验等一系列因素综合起来考虑 React Native 是否达到或超过了我们的目标和预期时,很多时候我们都感觉像是在颠覆移动开发的边缘.即使这种经历是振奋人心的,当我们在平衡好处和痛点,以及目前团队的需求和资源时,我们认为我们不再需要 React Native.
 
-是否使用一个进平台是一个重大的决定,而且完全取决于你的团队情况.我们的经历和退出的原因也许并不适用于你的团队.事实上,[许多公司](https://instagram-engineering.com/react-native-at-instagram-dd828a9a90c7)还在继续成功地使用 React Native,而且 React Native 对许多其他公司而言可能仍然是最佳选择.
+是否使用一个新平台是一个重大的决定,而且完全取决于你的团队情况.我们的经历和退出的原因也许并不适用于你的团队.事实上,[许多公司](https://instagram-engineering.com/react-native-at-instagram-dd828a9a90c7)还在继续成功地使用 React Native,而且 React Native 对许多其他公司而言可能仍然是最佳选择.
 
 尽管我们从来没有停止过 native 的研发,弃用 React Native 释放了许多资源,可以使 native 发展的更好.下一篇将介绍我们 native 的新计划.
 

@@ -176,7 +176,7 @@ MvRx 具有简单的构造,用于处理 Fragment 参数,跨进程重启时`saved
 
 在 Android 端使用了[gradle 产品风格](https://developer.android.com/studio/build/build-variants#product-flavors), 我们的 gradle 模块如下图所示:
 
-![](https://github.com/TWNTF/Translations/blob/RN%40Airbnb/docs/React%20Native%20at%20Airbnb/images/gradle%20modules.png)
+![](images/gradle%20modules.png)
 
 新的间接层使得工程师可以 app 的切片上进行开发.再配合[Intellij module unloadinig](https://blog.jetbrains.com/idea/2017/06/intellij-idea-2017-2-eap-introduces-unloaded-modules/),可以在 Macbook Pro 上动态提高构建和 IDE 的性能.
 
@@ -186,7 +186,7 @@ MvRx 具有简单的构造,用于处理 Fragment 参数,跨进程重启时`saved
 
 相似地,iOS 上的模块如下图所示:
 
-![](https://github.com/TWNTF/Translations/blob/RN%40Airbnb/docs/React%20Native%20at%20Airbnb/images/iOS%20modules.png)
+![](images/iOS%20modules.png)
 
 同样系统的构建速度会提升 3-8 倍.
 
