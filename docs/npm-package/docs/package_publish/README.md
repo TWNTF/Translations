@@ -99,7 +99,7 @@ npm官方推荐在package中添加说明文档，这个说明文档必须命名�
 发布完成后，我们可以通过访问`https://npmjs.com/package/<package>`	这种形式的URL，打开你发布的package的主页，如果类似于下图，恭喜你完成了第三方包发布的全部流程：
 ![](images/npm-package-page.png)
 
-接下来，我们可以在另外的工程中引入我们创建的package去做进一个验证，确保能正确被引入并使用。
+接下来，我们可以在另外的工程中引入我们创建的package去做进一步验证，确保能正确被引入并使用。
 + `npm install <package>`
 + 引入并调用，验证是否为对应的`console.log`输出。
 ```javascript
@@ -109,7 +109,8 @@ test.showMsg();
 
 **相关信息**
 * 原文地址：
-[How to Create Node.js Modules](https://docs.npmjs.com/getting-started/creating-node-modules)
-[How to Publish & Update a Package](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+    * [How to Create Node.js Modules](https://docs.npmjs.com/getting-started/creating-node-modules)
+    * [How to Publish & Update a Package](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 * 译文出自：TWNTF
 * 译者：Yuqing Xia
+* 时间：2018.08.10
