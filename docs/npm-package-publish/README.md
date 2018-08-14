@@ -60,6 +60,7 @@ exports.printMsg = function() {
   
 + **账号创建**
 想要在官网上发布npm包，你必须在官网上注册一个账号，另外你也可以通过命令`npm adduser`进行注册。完成注册后，通过命令`npm login`在终端登录你的账号即可。
+
 **验证**
 1. 通过`npm whoami`去验证是否在终端成功登录，同时，意味着你的`credentials` 也在本地保存好了；
 2. 通过访问如下形式的URL https://www.npmjs.com/~username去官网查看你的主页，例如：https://www.npmjs.com/~carolynawombat。
@@ -79,6 +80,7 @@ exports.printMsg = function() {
 	+ 对于作者信息，需要明确，不能具有误导性；
 	+ 参考npm的[规范规则](https://www.npmjs.com/policies)，例如：命名不能包含攻击性含义，请勿使用他人已注册的商标；
 	+ 在`package.json`文件中添加包名。
+	
 	**注意**：当你使用了[scopes](https://docs.npmjs.com/misc/scope)时，可以忽略前三条规则。
 
 + 添加说明文档（readme.md）
