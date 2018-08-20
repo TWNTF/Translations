@@ -4,7 +4,7 @@ Our translations.
 ## Table of contents
 
 * [手写简单的模块打包器，了解一下](docs/bundler/README.md)
-
+* [来自领英的高效 code review 技巧](docs/code-review/README.md)
 * npm package相关
     * [如何创建和发布Node.js modules](docs/npm-package/docs/package_publish)
     * [如何更新Node.js modules以及更新规范](docs/npm-package/docs/package_update)
