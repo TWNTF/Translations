@@ -1,6 +1,8 @@
 ## 译：Package 的域名
 
-域（scopes）通常就是将相关的 package 进行分组，然后分别创建命名空间去管理，就像是为这些 package 创建了一个域。更多关于 npm 域的定义可以查看[npm scopes](https://docs.npmjs.com/misc/scope)。
+以下文档需要 npm 版本不低于 2。
+
+域（scopes）常用于对相关联的 package 进行分组，并创建命名空间去管理，就像是为这些 package 创建了一个域。更多关于 npm 域的定义可以查看[npm scopes](https://docs.npmjs.com/misc/scope)。
 
 如果一个 package 的包名以`@`符号开头，就说明这是一个被界定域名的 package ，称为`scoped package`，这个 scope 定义在`@`和`/`中间。例如，
 
@@ -45,7 +47,7 @@ npm config set scope username
 
 ### 发布 scoped package
 
-默认情况下，scoped package 是私有的，如果想要发布私有的包，你需要付费用户。
+默认情况下，scoped package 是私有的，如果想要发布私有的包，你需要是付费用户。
 但是，发布公有的 scoped package 是免费的，在发布公有 scoped package 时需要设置命令中的参数，后续发布也需要保留这个参数，如下，
 
 ```
