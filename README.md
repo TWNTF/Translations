@@ -15,14 +15,14 @@ Our translations.
     * [package 的域名](docs/npm-package/docs/package_scope)
 
 * React Native at Airbnb系列
-	 *	[第一篇: React Native at Airbnb](docs/React%20Native%20at%20Airbnb/blogs/React-Native-at-Airbnb.md)
+	 * [第一篇: React Native at Airbnb](docs/React-Native-at-Airbnb-Part1/index.md)
 
-	 * [第二篇: The Technology](docs/React%20Native%20at%20Airbnb/blogs/React-Native-at-Airbnb-The-Technology.md)
+	 * [第二篇: The Technology](docs/React-Native-at-Airbnb-Part2/index.md)
 
-	 * [第三篇: Building a Cross-Platform Mobile Team](docs/React%20Native%20at%20Airbnb/blogs/React-Native-At-Airbnb-Building-A-Cross-Platform-Mobile-Team.md)
+	 * [第三篇: Building a Cross-Platform Mobile Team](docs/React-Native-at-Airbnb-Part3/index.md)
 
-	 * [第四篇: Making a Decision on React Native](docs/React%20Native%20at%20Airbnb/blogs/React-Native-At-Airbnb-Sunsetting-React-Native.md)
+	 * [第四篇: Making a Decision on React Native](docs/React-Native-at-Airbnb-Part4/index.md)
 
-	 * [第五篇: What's Next for Mobile](docs/React%20Native%20at%20Airbnb/blogs/Whats-Next-for-Mobile-at-Airbnb.md)
+	 * [第五篇: What's Next for Mobile](docs/React-Native-at-Airbnb-Part5/index.md)
 	 
-* [Redux VS. Context API](docs/Redux%20vs%20React%20Context%20API/Redux%20vs.%20The%20React%20Context%20API.md)
+* [Redux VS. Context API](docs/Redux-vs-React-Context-API/index.md)

@@ -64,12 +64,12 @@ React Native 的开发体验参差不齐.在某些方面(如构建时间)表现�
 
 _这是 Airbnb 关于 React Native 经验分享和移动端未来计划系列文章的第四篇._
 
-[第一篇: React Native at Airbnb](React-Native-at-Airbnb.md)
+[第一篇: React Native at Airbnb](../React-Native-at-Airbnb-Part1/index.md)
 
-[第二篇: The Technology](React-Native-at-Airbnb-The-Technology.md)
+[第二篇: The Technology](../React-Native-at-Airbnb-Part2/index.md)
 
-[第三篇: Building a Cross-Platform Mobile Team](React-Native-At-Airbnb-Building-A-Cross-Platform-Mobile-Team.md)
+[第三篇: Building a Cross-Platform Mobile Team](../React-Native-at-Airbnb-Part3/index.md)
 
-[第四篇: Making a Decision on React Native](React-Native-At-Airbnb-Sunsetting-React-Native.md)
+[第四篇: Making a Decision on React Native](index.md)
 
-[第五篇: What's Next for Mobile](Whats-Next-for-Mobile-at-Airbnb.md)
+[第五篇: What's Next for Mobile](../React-Native-at-Airbnb-Part5/index.md)
