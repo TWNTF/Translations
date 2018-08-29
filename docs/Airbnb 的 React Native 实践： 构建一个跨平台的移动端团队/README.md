@@ -3,7 +3,7 @@
 * 译者：Yingjian Li
 
 
-# 构建一个跨平台的移动端团队
+# Airbnb 的 React Native 实践： 构建一个跨平台的移动端团队
 
 > React Native 转型
 
@@ -70,12 +70,12 @@ Android 和 iOS 已有 10 年历史,而且有数百万的工程师贡献于学�
 
 _这是 Airbnb 关于 React Native 经验分享和移动端未来计划系列文章的第三篇._
 
-[第一篇: React Native at Airbnb](React-Native-at-Airbnb.md)
+[第一篇: React Native at Airbnb](../Airbnb%20的%20React%20Native%20实践：%20概述/README.md)
 
-[第二篇: The Technology](React-Native-at-Airbnb-The-Technology.md)
+[第二篇: The Technology](../Airbnb%20的%20React%20Native%20实践：%20技术细节/README.md)
 
-[第三篇: Building a Cross-Platform Mobile Team](React-Native-At-Airbnb-Building-A-Cross-Platform-Mobile-Team.md)
+[第三篇: Building a Cross-Platform Mobile Team](../Airbnb%20的%20React%20Native%20实践：%20构建一个跨平台的移动端团队/README.md)
 
-[第四篇: Making a Decision on React Native](React-Native-At-Airbnb-Sunsetting-React-Native.md)
+[第四篇: Making a Decision on React Native](../Airbnb%20的%20React%20Native%20实践：%20弃用%20React%20Native/README.md)
 
-[第五篇: What's Next for Mobile](Whats-Next-for-Mobile-at-Airbnb.md)
+[第五篇: What's Next for Mobile](../Airbnb%20的%20React%20Native%20实践：%20移动端发展计划/README.md)

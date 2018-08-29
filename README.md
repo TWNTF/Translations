@@ -3,9 +3,9 @@ Our translations.
 
 ## Table of contents
 
-* [手写简单的模块打包器，了解一下](docs/bundler/README.md)
+* [手写简单的模块打包器，了解一下](docs/手写简单的模块打包器，了解一下/README.md)
 
-* [来自领英的高效 code review 技巧](docs/code-review/README.md)
+* [来自领英的高效 code review 技巧](docs/来自领英的高效%20code%20review%20技巧/README.md)
 
 * npm package相关
     * [如何创建和发布Node.js modules](docs/npm-package/docs/package_publish)
@@ -15,14 +15,14 @@ Our translations.
     * [package 的域名](docs/npm-package/docs/package_scope)
 
 * React Native at Airbnb系列
-	 *	[第一篇: React Native at Airbnb](docs/React%20Native%20at%20Airbnb/blogs/React-Native-at-Airbnb.md)
+	 * [第一篇: React Native at Airbnb](docs/Airbnb%20的%20React%20Native%20实践：%20概述/README.md)
 
-	 * [第二篇: The Technology](docs/React%20Native%20at%20Airbnb/blogs/React-Native-at-Airbnb-The-Technology.md)
+	 * [第二篇: The Technology](docs/Airbnb%20的%20React%20Native%20实践：%20技术细节/README.md)
 
-	 * [第三篇: Building a Cross-Platform Mobile Team](docs/React%20Native%20at%20Airbnb/blogs/React-Native-At-Airbnb-Building-A-Cross-Platform-Mobile-Team.md)
+	 * [第三篇: Building a Cross-Platform Mobile Team](docs/Airbnb%20的%20React%20Native%20实践：%20构建一个跨平台的移动端团队/README.md)
 
-	 * [第四篇: Making a Decision on React Native](docs/React%20Native%20at%20Airbnb/blogs/React-Native-At-Airbnb-Sunsetting-React-Native.md)
+	 * [第四篇: Making a Decision on React Native](docs/Airbnb%20的%20React%20Native%20实践：%20弃用%20React%20Native/README.md)
 
-	 * [第五篇: What's Next for Mobile](docs/React%20Native%20at%20Airbnb/blogs/Whats-Next-for-Mobile-at-Airbnb.md)
+	 * [第五篇: What's Next for Mobile](docs/Airbnb%20的%20React%20Native%20实践：%20移动端发展计划/README.md)
 	 
-* [Redux VS. Context API](docs/Redux%20vs%20React%20Context%20API/Redux%20vs.%20The%20React%20Context%20API.md)
+* [对比 Redux 和 Context API](docs/对比%20Redux%20和%20Context%20API/README.md)
