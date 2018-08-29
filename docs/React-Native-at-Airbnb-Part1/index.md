@@ -4,7 +4,7 @@
 * 译者：Yingjian Li
 
 
-# Airbnb 的 React Native 实践： 概述
+# React Native 在 Airbnb 中的实践
 
 > 在 2016 年,我们在 React Native 上押了很多赌注.两年后,我们将分享我们的经验和下一步的计划.
 
@@ -35,10 +35,10 @@ _这是 Airbnb 关于 React Native 经验分享和移动端未来计划系列文
 
 不同的团队在 React Native 方面拥有广泛的经验。React Native 有时表现得十分出色,而有时会造成一些技术上和组织上的问题. 在本系列文章中, 我们详细介绍了我们的经验以及我们接下来的计划。
 
-[第二部分](../React-Native-at-Airbnb-Part2/Airbnb%20的%20React%20Native%20实践：%20技术细节.md)中, 我们列举了技术方面上 React Native 优点和缺陷.
+[第二部分](../React-Native-at-Airbnb-Part2/index.md)中, 我们列举了技术方面上 React Native 优点和缺陷.
 
-[第三部分](../React-Native-at-Airbnb-Part3/Airbnb%20的%20React%20Native%20实践：%20构建一个跨平台的移动端团队.md)中, 我们列举了在构建跨平台移动端团队中的组织方面的问题
+[第三部分](../React-Native-at-Airbnb-Part3/index.md)中, 我们列举了在构建跨平台移动端团队中的组织方面的问题
 
-[第四部分](../React-Native-at-Airbnb-Part4/Airbnb%20的%20React%20Native%20实践：%20弃用%20React%20Native.md)中, 我们重点展示了我们对 React Native 的看法以及 Airbnb 未来的发展方向.
+[第四部分](../React-Native-at-Airbnb-Part4/index.md)中, 我们重点展示了我们对 React Native 的看法以及 Airbnb 未来的发展方向.
 
-[第五部分](../React-Native-at-Airbnb-Part5/Airbnb%20的%20React%20Native%20实践：%20移动端发展计划.md)中, 利用我们在 React Native 上积累的经验,使原生变得更好.
+[第五部分](../React-Native-at-Airbnb-Part5/index.md)中, 利用我们在 React Native 上积累的经验,使原生变得更好.

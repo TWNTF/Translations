@@ -3,7 +3,7 @@
 * 译者：Yingjian Li
 
 
-# Airbnb 的 React Native 实践： 移动端发展计划
+# Airbnb 移动端发展计划
 
 > 整装待发,重回原生
 
@@ -196,13 +196,13 @@ MvRx 具有简单的构造,用于处理 Fragment 参数,跨进程重启时`saved
 
 _这是 Airbnb 关于 React Native 经验分享和移动端未来计划系列文章的第五篇._
 
-[第一篇: React Native at Airbnb](../React-Native-at-Airbnb-Part1/Airbnb%20的%20React%20Native%20实践：%20概述.md)
+[第一篇: React Native at Airbnb](../React-Native-at-Airbnb-Part1/index.md)
 
-[第二篇: The Technology](../React-Native-at-Airbnb-Part2/Airbnb%20的%20React%20Native%20实践：%20技术细节.md)
+[第二篇: The Technology](../React-Native-at-Airbnb-Part2/index.md)
 
-[第三篇: Building a Cross-Platform Mobile Team](../React-Native-at-Airbnb-Part3/Airbnb%20的%20React%20Native%20实践：%20构建一个跨平台的移动端团队.md)
+[第三篇: Building a Cross-Platform Mobile Team](../React-Native-at-Airbnb-Part3/index.md)
 
-[第四篇: Making a Decision on React Native](../React-Native-at-Airbnb-Part4/Airbnb%20的%20React%20Native%20实践：%20弃用%20React%20Native.md)
+[第四篇: Making a Decision on React Native](../React-Native-at-Airbnb-Part4/index.md)
 
-[第五篇: What's Next for Mobile](Airbnb 的 React Native 实践： 移动端发展计划.md)
+[第五篇: What's Next for Mobile](index.md)
 

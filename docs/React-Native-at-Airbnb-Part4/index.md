@@ -2,7 +2,7 @@
 * 译文出自：TWNTF
 * 译者：Yingjian Li
 
-# Airbnb 的 React Native 实践： 弃用 React Native
+# 弃用 React Native
 
 > 由于大量的技术和组织问题,我们将弃用 React Native,并且今后将使用 Native 进行开发.
 
@@ -64,12 +64,12 @@ React Native 的开发体验参差不齐.在某些方面(如构建时间)表现�
 
 _这是 Airbnb 关于 React Native 经验分享和移动端未来计划系列文章的第四篇._
 
-[第一篇: React Native at Airbnb](../React-Native-at-Airbnb-Part1/Airbnb%20的%20React%20Native%20实践：%20概述.md)
+[第一篇: React Native at Airbnb](../React-Native-at-Airbnb-Part1/index.md)
 
-[第二篇: The Technology](../React-Native-at-Airbnb-Part2/Airbnb%20的%20React%20Native%20实践：%20技术细节.md)
+[第二篇: The Technology](../React-Native-at-Airbnb-Part2/index.md)
 
-[第三篇: Building a Cross-Platform Mobile Team](../React-Native-at-Airbnb-Part3/Airbnb%20的%20React%20Native%20实践：%20构建一个跨平台的移动端团队.md)
+[第三篇: Building a Cross-Platform Mobile Team](../React-Native-at-Airbnb-Part3/index.md)
 
-[第四篇: Making a Decision on React Native](Airbnb 的 React Native 实践： 弃用 React Native.md)
+[第四篇: Making a Decision on React Native](index.md)
 
-[第五篇: What's Next for Mobile](../React-Native-at-Airbnb-Part5/Airbnb%20的%20React%20Native%20实践：%20移动端发展计划.md)
+[第五篇: What's Next for Mobile](../React-Native-at-Airbnb-Part5/index.md)
