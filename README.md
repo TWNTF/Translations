@@ -26,3 +26,5 @@ Our translations.
 	 * [第五篇: What's Next for Mobile](docs/Airbnb%20的%20React%20Native%20实践：%20移动端发展计划/README.md)
 	 
 * [对比 Redux 和 Context API](docs/对比%20Redux%20和%20Context%20API/README.md)
+
+* [深入理解 Javascript 事件模型](docs/event-model/README.md)
