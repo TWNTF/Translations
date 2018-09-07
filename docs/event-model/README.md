@@ -112,7 +112,11 @@ function addHandler() {
 setTimeout(addHandler, 0) // 点击①: 执行后立刻在 5 秒钟之内快速点击 1 次 $0 元素
 
 // I'm clicked!
+```
 
+之后，
+
+```Javascript
 function removeHandler() {
   sleep(5000)
   $0.removeEventListener('click', handler)
