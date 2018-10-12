@@ -8,7 +8,7 @@ size/minification 的选项，对于 JSX Fragment，TypeScript的支持，新的
 
 ### 它正在发生着
 
-软件永远都不会是完美的，我们现在已经准备好输出一些东西，并且它们已经在产品环境下使用一段时间了。现在，`@babel/core`已经达到了每月 510 万的下载量了，这正是因为它使用在很多工具中，如[Next.js](https://zeit.co/blog/next6)，[vue-cli 3.0](https://medium.com/the-vue-point/vue-cli-3-0-is-here-c42bebe28fbb)，[eact Native 0.56](https://facebook.github.io/react-native/blog/2018/07/04/releasing-react-native-056)，甚至有[Wordpress's frontend](https://github.com/Automattic/wp-calypso)。
+软件永远都不会是完美的，我们现在已经准备好输出一些东西，并且它们已经在产品环境下使用一段时间了。现在，`@babel/core`已经达到了每月 510 万的下载量了，这正是因为它使用在很多工具中，如[Next.js](https://zeit.co/blog/next6)，[vue-cli 3.0](https://medium.com/the-vue-point/vue-cli-3-0-is-here-c42bebe28fbb)，[React Native 0.56](https://facebook.github.io/react-native/blog/2018/07/04/releasing-react-native-056)，甚至有[Wordpress](https://github.com/Automattic/wp-calypso)。
 
 ### Babel 的角色定位
 
@@ -31,7 +31,7 @@ Babel 是当今 JavaScript 开发的基础，Github 目前有超过 130 万个�
 * 不再支持不在维护中的 node 版本，包括：0.10，0.12，4，5（[详情](http://babeljs.io/blog/2017/09/12/planning-for-7.0#drop-support-for-unmaintained-node-versions-010-012-5-4315-https-githubcom-babel-babel-issues-4315)）。
 * 使用 scoped package 方式命名，使用`@babel`命名空间（[详情](http://babeljs.io/blog/2017/12/27/nearing-the-7.0-release#renames-scoped-packages-babel-x)）。这样以便于将官方 package 与非官方 package 进行区分，因此`babel-core`就变成了`@babel/core`。
 * 移除（并停止发布）所有与年份相关的 presets（`preset-es2015` 等）([详情](http://babeljs.io/blog/2017/12/27/nearing-the-7.0-release#deprecated-yearly-presets-eg-babel-preset-es20xx))。`@babel/preset-env`会取代这些规则集，这是因为`@babel/preset-env`包括所有 yearly presets 的内容，同时它还能针对不能浏览器进行适配。
-* 放弃了 [stage](https://tc39.github.io/process-document/) presets（`@babel/preset-stage-0` 等），选择支持多个单个 proposal，当然我们会默认移除`@babel/polyfill`中的 proposals（[详情](https://github.com/babel/babel/pull/8440)），预知更多详情，请参考[博文](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets)。
+* 放弃了 [stage](https://tc39.github.io/process-document/) presets（`@babel/preset-stage-0` 等），转而支持单个 proposal，同样默认移除了`@babel/polyfill`中的 proposals（[详情](https://github.com/babel/babel/pull/8440)），预知更多详情，请参考[博文](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets)。
 * 一些 package 已经重命名了：所有 TC39 proposal 插件的命名中的 `-transform`都会变为`-proposal`（[详情](http://babeljs.io/blog/2017/12/27/nearing-the-7.0-release#renames-proposal)），例如 `@babel/plugin-transform-class-properties`将会变为`@babel/plugin-proposal-class-properties`。
 * 对于一些需要面向用户的 package（如`babel-loader`，`@babel/cli` 等），会在 `@babel/core`中引入 peerDependency（[详情](http://babeljs.io/blog/2017/12/27/nearing-the-7.0-release#peer-dependencies-integrations)）。
 
@@ -58,11 +58,11 @@ module.exports = {
   ].filter(Boolean)
 };
 ```
-Babel 对于 `babel.config.js`与`.babelrc`在配置解析方式上是不同的。Babel  对`babel.config.js` 对，它始终解析该配置文件；对于`.babelrc`，Babel 会针对每个文件都做一次向上查找的操作，直至找到配置文件为止。这使得`babel.config.js`能使用到下文即将提到的新特性：`override` 。
+Babel 对`babel.config.js`与`.babelrc`这两者在配置解析方式上是不同的。对于`babel.config.js` ，Babel 始终解析该配置文件；对于`.babelrc`，Babel 会针对每个文件目录都做一次向上查找的操作，直至找到配置文件为止。这使得`babel.config.js`能使用到下文即将提到的新特性：`override` 。
 
 ### 使用 `override`进行选择性配置
 
-最近， 我发表了一篇关于发布 ES2015+ packages 以及编译配置想法的[文章](https://babeljs.io/blog/2018/06/26/on-consuming-and-publishing-es2015+-packages)。
+最近， 我发表了一篇[文章](https://babeljs.io/blog/2018/06/26/on-consuming-and-publishing-es2015+-packages)，关于发布 ES2015+ 的 packages以及在使用时再进行编译。
 
 这里面有部分[节选](https://babeljs.io/blog/2018/06/26/on-consuming-and-publishing-es2015+-packages#selective-compilation-with-overrides)是介绍在 Babel 配置中使用一个新的关键字`override`，它允许你分别为每一个部分进行配置。
 
@@ -130,9 +130,9 @@ for (let _i = 0, _array = array; _i < _array.length; _i++) {
 }
 ```
 
-* 在使用`preset-env`时，`transform-typeof-symbol`插件的 `loose`模式将不复存在[#6831](https://github.com/babel/babel/pull/6831)。
+* 在使用`preset-env`时，在`loose`模式下将移除`transform-typeof-symbol`插件 [#6831](https://github.com/babel/babel/pull/6831)。我们发现很多库已经手动设置了该项，所以我们决定将其设置为默认行为。
 
-我们发现很多库使用了一些新的配置项，所以我们决定默认继续做。请注意，以上默认行为是尽可能兼容规范的，因此不用 Babel 或使用`preset-env`是可以无缝衔接的，而允许较小的编译输出只是为了节省字节（每个项目都可以进行权衡）。当然，我们计划开发更好的文档和工具，以使其配置更容易。
+请注意，以上默认行为是尽可能兼容规范的，因此不用 Babel 或使用`preset-env`是可以无缝衔接的，而允许较小的编译输出只是为了节省字节（每个项目都可以进行权衡）。当然，我们计划开发更好的文档和工具，以使其配置更容易。
 
 #### 支持 "Pure" 注释
 
@@ -187,9 +187,9 @@ function () {
 
 我们与 [TypeScript](https://github.com/Microsoft/TypeScript)团队合作，让 Babel 能使用`@babel/preset-typescript`解析并转换 typescript 的 type 语法，这与之前我们使用`@babel/preset-flow`处理 [Flow](https://flow.org/)的方法类似。
 
->更多相关细节请移步 TypeScript 团队所写的[文章](For more details check out this post from the TypeScript team!)。
+>更多相关细节请移步 TypeScript 团队所写的[文章](https://blogs.msdn.microsoft.com/typescript/2018/08/27/typescript-and-babel-7/)。
 
-使用`@babel/preset-typescript`之前 (使用 type 语法):
+使用`@babel/preset-typescript`之前，编译结果 (使用 type 语法):
 ```typescript
 interface Person {
   firstName: string;
@@ -200,7 +200,7 @@ function greeter(person : Person) {
   return "Hello, " + person.firstName + " " + person.lastName;
 }
 ```
-使用`@babel/preset-typescript`之后 (移除 types语法)：
+使用`@babel/preset-typescript`之后，编译结果 (移除 types语法)：
 ```javascript
 function greeter(person) {
   return "Hello, " + person.firstName + " " + person.lastName;
