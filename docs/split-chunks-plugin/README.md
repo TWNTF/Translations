@@ -164,8 +164,6 @@ module.exports = {
 
 #### `splitChunks.cacheGroups`
 
-Cache groups can inherit and/or override any options from splitChunks.*; but test, priority and reuseExistingChunk can only be configured on cache group level. To disable any of the default cache groups, set them to false.
-
 Cache groups 可以继承或者覆盖掉 `splitChunks.*` 中的任何配置，但是 `test`, `priority` 以及 `reuseExistingChunk` 选项只能在 cache group 级别配置。如果想禁用任何默认的 cache group，设置它们为 `false`：
 
 ```Javascript
@@ -184,8 +182,6 @@ module.exports = {
 ##### `splitChunks.cacheGroups.priority`
 
 `number`
-
-A module can belong to multiple cache groups. The optimization will prefer the cache group with a higher priority. The default groups have a negative priority to allow custom groups to take higher priority (default value is 0 for custom groups).
 
 一个模块可以属于多个 cache groups，插件会为自定义的 cache group 采用更高的优先级。默认的 groups `priority` 值为负，以便自定义的 groups 优先级更高（自定义 groups 的 `priority` 默认值为 `0`）。
 
@@ -352,8 +348,6 @@ module.exports = {
   }
 };
 ```
-
-This will result in splitting react and react-dom into a separate chunk. If you're not sure what packages have been included in a chunk you may refer to Bundle Analysis section for details.
 
 > 这会把 `react` 和 `react-dom` 分割到一个单独的 chunk 中。如果你不确定什么包被包括进了这个 chunk 中，你可以参考[打包分析](https://webpack.js.org/guides/code-splitting/#bundle-analysis)章节以获取更多细节。
 
