@@ -28,3 +28,6 @@ Our translations.
 * [对比 Redux 和 Context API](docs/对比%20Redux%20和%20Context%20API/README.md)
 * [再见了，Redux](docs/再见了，Redux/README.md)
 * [深入理解 Javascript 事件模型](docs/event-model/README.md)
+* webpack 相关
+  * [SplitChunksPlugin](docs/split-chunks-plugin/README.md)
+  * [webpack 4：代码分割，chunk graph 以及 splitChunks 优化](docs/split-chunks-plugin/optimization.md)
