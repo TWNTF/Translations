@@ -31,3 +31,6 @@ Our translations.
 * webpack 相关
   * [SplitChunksPlugin](docs/split-chunks-plugin/README.md)
   * [webpack 4：代码分割，chunk graph 以及 splitChunks 优化](docs/split-chunks-plugin/optimization.md)
+* Babel 7 发布了
+  * [babel 7 released part1](docs/babel-7-released/babel-7-released-part1.md)
+  * [babel 7 released part2](docs/babel-7-released/babel-7-released-part2.md)
