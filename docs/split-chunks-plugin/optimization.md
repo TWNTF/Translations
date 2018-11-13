@@ -4,7 +4,7 @@
 
 # webpack 4：代码分割，chunk graph 以及 splitChunks 优化
 
-webpack 4 对 chunk 做graph 了一些大幅度的改进并在 `CommonsChunkPlugin` 之后，新增加了一个分割 chunk 的优化方案。
+webpack 4 对 chunk graph 做了一些大幅度的改进并在 `CommonsChunkPlugin` 之后，新增加了一个分割 chunk 的优化方案。
 
 让我们先来看看以前的 chunk graph 有哪些不足吧。
 
